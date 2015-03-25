@@ -231,7 +231,7 @@ mesOutils.mesListes.Liste L = new mesOutils.mesListes.Liste();
 
 - La JVM charge la classe la première fois où elle est accédée dans le programme.
 
-- Les mécanismes de construction du *class path* et de chargement des classes dépassent peuvent être extrêmement complexes et élaborés. Leurs descriptions dépassent le cadre de ce cours.
+- Les mécanismes de construction du *class path* et de chargement des classes peuvent être extrêmement complexes et élaborés. Leurs descriptions dépassent le cadre de ce cours.
 
 - Si une classe ne peut pas être trouvée par la JVM, une exception `ClassNotFoundException` sera levée.
 ---
