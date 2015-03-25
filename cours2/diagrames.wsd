@@ -1,0 +1,156 @@
+----------------------------------------------------------
+Premier diagrame de classe
+
+@startuml
+scale  500*400
+Point <|-- Pixel : Étend
+class Point {
+  # x : Integer 
+  # y : Integer 
+}
+
+class Pixel {
+  # couleur : Couleur 
+}
+
+@enduml
+
+----------------------------------------------------------
+Second diagrame de classe
+
+@startuml
+scale  700*450
+ObjetGraphique <|-- Rond
+ObjetGraphique <|-- Carré
+
+class ObjetGraphique {
+  # position : Point
+  # couleur : Couleur 
+
+}
+
+class Rond {
+  - diametre  : Integer
+}
+
+class Carré {
+  - cote : Integer
+}
+
+@enduml
+
+----------------------------------------------------------
+Troisième diagrame de classe
+
+@startuml
+scale  750*470
+Point <|-- Pixel : relation extends
+note on link : un <b>Pixel</b> est une sorte de <b>Point</b>
+class Point {
+  # x : Integer 
+  # y : Integer
+  + placer (x, y) : void
+  + distance (point) : Float
+  + toString() : String
+}
+note left: la super classe
+
+class Pixel {
+  # couleur : Couleur 
+  + colorier (couleur) : void
+  + toString() : String
+}
+note left: la sous classe
+
+@enduml
+
+----------------------------------------------------------
+Quatrième diagrame de classe
+
+@startuml
+scale  350*250
+Meuble <|-- Chaise
+Meuble <|-- Table
+
+class Meuble {
+ # Meuble ()
+}
+
+class Table {
+ + Table ()
+}
+
+class Chaise {
+ + Chaise ()
+}
+
+@enduml
+
+----------------------------------------------------------
+Cinquième diagrame de classe
+
+@startuml
+scale  750*350
+Object <|-- Point
+Object <|-- Number
+Object <|-- String
+Point <|-- Pixel
+Number <|-- Integer
+Number <|-- Float
+@enduml
+
+----------------------------------------------------------
+Sixième diagrame de classe
+
+@startuml
+scale  700*450
+ObjetGraphique <|-- Cercle
+ObjetGraphique <|-- Rectangle
+ObjetGraphique <|-- Triangle
+
+
+class ObjetGraphique {
+	+seDessiner():void 
+}
+
+class Cercle {
+	+seDessiner():void 
+}
+
+class Rectangle {
+	+seDessiner():void 
+}
+
+class Triangle {
+	+seDessiner():void 
+}
+
+@enduml
+
+----------------------------------------------------------
+Septième diagrame de classe
+
+@startuml
+scale  700*450
+ObjetGraphique <|-- Cercle
+ObjetGraphique <|-- Rectangle
+ObjetGraphique <|-- Triangle
+
+
+abstract class ObjetGraphique {
+	{abstract} +seDessiner():void 
+}
+note left: la mise en italique indique \nque la méthode est abstraite 
+class Cercle {
+	+seDessiner():void 
+}
+
+class Rectangle {
+	+seDessiner():void 
+}
+
+class Triangle {
+	+seDessiner():void 
+}
+
+@enduml
