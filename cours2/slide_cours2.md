@@ -763,10 +763,9 @@ public abstract class ObjetGraphique {
 - Certaines interfaces (par exemple `Clonable`, `Serializable`) sont totalement vides. Elles servent de "balisage" 
 pour reconnaître les types possédant certaines propriétés.
 
-- Depuis Java 8, une interface peut disposer de méthodes `static et d'implémentations par défaut pour les méthodes publiques.
+- Depuis Java 8, une interface peut disposer de méthodes `static` et d'implémentations par défaut pour les méthodes publiques.
 
 ---
-
 # Classes anonymes
 - Situation : on a une classe [resp. une interface] et il nous en faut une sous-classe [resp. une implémentation] destinée 
 à être utilisé que dans un seul endroit du code.
