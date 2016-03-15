@@ -766,9 +766,6 @@ pour reconnaître les types possédant certaines propriétés.
 - Depuis Java 8, une interface peut disposer de méthodes `static et d'implémentations par défaut pour les méthodes publiques.
 
 ---
-# Interfaces (Exemple)
-TODO...
----
 
 # Classes anonymes
 - Situation : on a une classe [resp. une interface] et il nous en faut une sous-classe [resp. une implémentation] destinée 
@@ -807,7 +804,8 @@ TODO...
 - Pratique pour implémenter une interface (ou étendre une classe) ayant peu de méthode, elles deviennent rapidement assez illisible.
 
 - À utiliser avec parcimonie car elles peuvent finir par alourdir terriblement le code.
-
+ 
+---
 # Conclusion
 
 
