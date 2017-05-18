@@ -5,3 +5,4 @@ La version en ligne du cours est trouvable à l'adresse suivante :
 - https://IUTInfoAix-M2105.github.io/CoursIHMJava/cours1/#1
 - https://IUTInfoAix-M2105.github.io/CoursIHMJava/cours2/#1
 - https://IUTInfoAix-M2105.github.io/CoursIHMJava/cours3/#1
+- https://IUTInfoAix-M2105.github.io/CoursIHMJava/cours4/#1
