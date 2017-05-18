@@ -163,7 +163,7 @@ utilisateurs) de différentes manières :
 
     - **[JFXtras](http://jfxtras.org/)** : Projet open-source destiné à fournir aux développeurs des éléments utiles dans leur vie de tous les jours et qui manquent dans la version de base de JavaFX
 
-    - **[DataFX](http://www.javafxdata.org/)** : Projet open-source destiné à faciliter la collaboration entre une application JavaFX et un système de gestion des données (DB, …)
+    - **[DataFX](http://www.javafxdata.org/)** : Projet open-source destiné à faciliter la collaboration entre une application JavaFX et un système de gestion des données (BD, …)
 
     - **[TestFX](https://github.com/TestFX)** : Librairie pour automatiser le test des applications JavaFX
     
