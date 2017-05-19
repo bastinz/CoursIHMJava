@@ -891,7 +891,7 @@ En Java, Sun a défini une convention de codage de base que toutes les applicati
 
 - [Traduction Française](ftp://ftp-developpez.com/cyberzoide/java/JavaStyle.pdf)
 
-- [Google Java Style ](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+- [Google Java Style](https://google.github.io/styleguide/javaguide.html)
 ---
 
 # Java Style : principes fondamentaux
