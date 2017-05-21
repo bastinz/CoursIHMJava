@@ -163,7 +163,7 @@ utilisateurs) de différentes manières :
 
     - **[JFXtras](http://jfxtras.org/)** : Projet open-source destiné à fournir aux développeurs des éléments utiles dans leur vie de tous les jours et qui manquent dans la version de base de JavaFX
 
-    - **[DataFX](http://www.javafxdata.org/)** : Projet open-source destiné à faciliter la collaboration entre une application JavaFX et un système de gestion des données (DB, …)
+    - **[DataFX](http://www.javafxdata.org/)** : Projet open-source destiné à faciliter la collaboration entre une application JavaFX et un système de gestion des données (BD, …)
 
     - **[TestFX](https://github.com/TestFX)** : Librairie pour automatiser le test des applications JavaFX
     
@@ -598,13 +598,13 @@ class: center, middle
 
 - Tous les éléments contenus dans un graphe de scène sont des objets qui ont pour classe parente la classe `Node`. Parmi les sous-classes de `Node` on distingue différentes familles :
 
-      - Les formes primitives (*Shape*) 2D et 3D : `Line`, `Circle`, `Rectangle`, `Box`, `Cylinder`, …
+     - Les formes primitives (*Shape*) 2D et 3D : `Line`, `Circle`, `Rectangle`, `Box`, `Cylinder`, …
 
-      - Les conteneurs (*Layout-Pane*) qui se chargent de la disposition (*layout*) des composants enfants et qui ont comme classe parente `Pane` : `AnchorPane`, `BorderPane`, `GridPane`, `HBox`, `VBox`, …
+     - Les conteneurs (*Layout-Pane*) qui se chargent de la disposition (*layout*) des composants enfants et qui ont comme classe parente `Pane` : `AnchorPane`, `BorderPane`, `GridPane`, `HBox`, `VBox`, …
 
-      - Les composants standard (*Controls*) qui étendent la classe `Control` : `Label`, `Button`, `TextField`, `ComboBox`, …
+     - Les composants standard (*Controls*) qui étendent la classe `Control` : `Label`, `Button`, `TextField`, `ComboBox`, …
 
-      - Les composants spécialisés qui sont dédiés à un domaine particulier (par exemple : lecteur multimédia, navigateur web, etc.) : `MediaView`, `WebView`, `ImageView`, `Canvas`, `Chart`, …
+     - Les composants spécialisés qui sont dédiés à un domaine particulier (par exemple : lecteur multimédia, navigateur web, etc.) : `MediaView`, `WebView`, `ImageView`, `Canvas`, `Chart`, …
 
 ---
 # Les conteneurs
