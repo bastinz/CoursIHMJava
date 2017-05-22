@@ -825,11 +825,11 @@ composants dans ces conteneurs imbriqués.
 # Conclusion (temporaire)
 - La librairie JavaFX offre un ensemble de composants (kit de développement) pour créer les interfaces utilisateurs graphiques.
 
-- Les différents conteneurs permettent que créer des interfaces graphique aussi complexe que nécessaire. La diversité des layouts permet au concepteur de prévoir l'adaptation des composants dans toutes les situations.
+- Les différents conteneurs permettent de créer des interfaces graphiques aussi complexes que nécessaires. La diversité des layouts permet au concepteur de prévoir l'adaptation des composants dans toutes les situations.
 
-- Il nous manque maitenant à décrire les *composants*.  Ceux sont les éléments qui servent à afficher des informations ou
+- Il nous manque maintenant à décrire les *composants*.  Ce sont les éléments qui servent à afficher des informations ou
 permettre à l'utilisateur d'interagir avec l'application : Libellés, icônes, boutons, champs-texte, menus, cases à cocher, etc.
 
-- Bien qu'ils constituent les deux des nœuds (node) du graphe de scène, les composants sont à distinguer des conteneurs (layoutpanes) qui servent à disposer les composants et qui ne sont pas directement visibles dans l'interface (les bordures et les d couleurs'arrière-plan permettent cependant de révéler leur présence). 
+- Bien qu'ils constituent les deux des nœuds (node) du graphe de scène, les composants sont à distinguer des conteneurs (layoutpanes) qui servent à disposer les composants et qui ne sont pas directement visibles dans l'interface (les bordures et les couleurs d'arrière-plan permettent cependant de révéler leur présence). 
 
 
